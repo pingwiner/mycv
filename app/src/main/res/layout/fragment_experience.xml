@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/experience"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout style="@style/ItemHolder" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/job1"
+                            style="@style/ItemHeader"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:text="@string/job1_date"
+                            style="@style/ItemDate" />
+
+                    </LinearLayout>
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/job1_description"
+                        style="@style/ItemContent" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/job2"
+                            style="@style/ItemHeader"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:text="@string/job2_date"
+                            style="@style/ItemDate" />
+
+                    </LinearLayout>
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/job2_description"
+                        style="@style/ItemContent" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/job3"
+                            style="@style/ItemHeader"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:text="@string/job3_date"
+                            style="@style/ItemDate" />
+
+                    </LinearLayout>
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/job3_description"
+                        style="@style/ItemContent" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/job4"
+                            style="@style/ItemHeader"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:text="@string/job4_date"
+                            style="@style/ItemDate" />
+
+                    </LinearLayout>
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/job4_description"
+                        style="@style/ItemContent" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/job5"
+                            style="@style/ItemHeader"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:text="@string/job5_date"
+                            style="@style/ItemDate" />
+
+                    </LinearLayout>
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/job5_description"
+                        style="@style/ItemContent" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/job6"
+                            style="@style/ItemHeader"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:text="@string/job6_date"
+                            style="@style/ItemDate" />
+
+                    </LinearLayout>
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/job6_description"
+                        style="@style/ItemContent" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

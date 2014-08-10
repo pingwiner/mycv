@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My CV</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="navigation_drawer_items">
+        <item>Personal</item>
+        <item>Technologies</item>
+        <item>Experience</item>
+        <item>Education</item>
+        <item>Hobbies</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fio">Ilya Melnikov</string>
+    <string name="birthdate_label">BIRTHDATE:</string>
+    <string name="birthdate">02/18/1983</string>
+    <string name="location_label">LOCATION:</string>
+    <string name="location">Samara. Russia.</string>
+    <string name="email_label">EMAIL:</string>
+    <string name="email">im486dx@gmail.com</string>
+    <string name="phone_label">PHONE:</string>
+    <string name="phone">8 (987) 946-73-59</string>
+    <string name="skype_label">SKYPE:</string>
+    <string name="skype">i-m-night</string>
+    <string name="message_subject">Android CV feedback</string>
+    <string name="send_mail">Send mail...</string>
+    <string name="no_email_client">There are no email clients installed.</string>
+    <string name="message_type">"message/rfc822"</string>
+    <string name="no_telephony_support">This device has no telephony support</string>
+
+    <string name="about">
+        \u00A0• 2 years of Android experience \n
+        • Strong Java skills \n
+        • Location based services \n
+        • Augmented reality games \n
+        • Push notification services \n
+        • Multithreading, concurrency \n
+        • Client-server applications, HTTP, JSON, REST \n
+        • Backend development background, Unix administration skills
+    </string>
+
+    <string name="info">
+        \u00A0• Participated in 2 Android projects in i-Sys LLC, created 1 app just for fun and another one as a freelance project. \n
+        • Proficient in object-oriented design, problem solving and debugging. \n
+        • Familiar with different versions of Android, Google design principles and guidelines. \n
+        • Self-motivated and well organized team player.
+    </string>
+
+    <string name="languages_label">LANGUAGES</string>
+    <string name="languages">
+        \u00A0• Java/Android - 2 years\n
+        • PHP/MySQL/HTML/CSS/Javascript - 4 years\n
+        • C/C++/Assembler - 3 years\n
+        • Basic knowlege of Pascal, Delphi, C#, VBA</string>
+
+    <string name="operating_systems_label">OPERATING SYSTEMS</string>
+    <string name="operating_systems">
+        \u00A0• Android user and developer\n
+        • Linux user and administrator\n
+        • Windows and Mac user</string>
+
+    <string name="ide_and_tools_label">IDE AND TOOLS</string>
+    <string name="ide_and_tools">Eclipse, Android studio, Netbeans\nAndroid SDK, DDMS, ADB</string>
+
+    <string name="version_control_label">VERSION CONTROL</string>
+    <string name="version_control">Git, SVN, Mercurial</string>
+
+    <string name="bug_tracking_label">BUG TRACKING</string>
+    <string name="bug_tracking">Redmine, Mantis, Trac, Jira</string>
+
+    <string name="job1">i-Sys</string>
+    <string name="job1_date">November 2012 - Present</string>
+    <string name="job1_description">
+        \u00A0• Participated in development of YooMee - social network and augmented reality games platform. \n
+        • Involved at every project phase, from design and planning to Google Play deployment. \n
+        • Responsible for general maintenance, debugging and implementation of new features. \n
+        • Created some tools for backend maintenance. \n
+        \n
+        • Main developer of the mobile client for Doctrix - electronic documents workflow solution. \n
+        • Designed and implemented all project structure, data model, GUI, network interaction etc...\n
+        • Involved in testing process
+    </string>
+    <string name="job2">Wave-Access</string>
+    <string name="job2_date">April 2011 - November 2012</string>
+    <string name="job2_description">
+        \u00A0• Participated in many projects as a Web developer. \n
+        • Was involved in development of sites and services using PHP, Java and C#.
+    </string>
+
+    <string name="job3">3DIT</string>
+    <string name="job3_date">February 2010 - April 2011</string>
+    <string name="job3_description">
+        \u00A0• PHP/Javascript developer in 3DIT Web studio.\n
+        • Created some web sites using Drupal CMS.\n
+        • Developed some plugin modules for Drupal CMS.
+    </string>
+
+    <string name="job4">Liscom</string>
+    <string name="job4_date">2009 - 2010</string>
+    <string name="job4_description">
+        \u00A0C/C++ embedded systems developer.
+    </string>
+
+    <string name="job5">ITV</string>
+    <string name="job5_date">2008 - 2009</string>
+    <string name="job5_description">
+        \u00A0 C/C++ developer
+    </string>
+
+    <string name="job6">НПП НТС</string>
+    <string name="job6_date">2006 - 2007</string>
+    <string name="job6_description">
+        \u00A0C/C++ embedded systems developer.
+    </string>
+
+    <string name="university">Samara State Technical University</string>
+    <string name="university_date">2000 - 2005</string>
+    <string name="university_description">
+        \u00A0Automation and Information Technologies Faculty\n
+        Household Radio-Electronic Appliances
+    </string>
+
+    <string name="school">Samara Gymnasium #2</string>
+    <string name="school_date">1995 - 2000</string>
+    <string name="school_description">
+        \u00A0High school with in-depth study of mathematics
+    </string>
+
+    <string name="school2">School #166</string>
+    <string name="school2_date">1991 - 1994</string>
+    <string name="school2_description">
+        \u00A0Just a regular school
+    </string>
+
+    <string name="programming">PROGRAMMING</string>
+    <string name="programming_description">Just-for-fun development of web sites, android apps, games, exploring new features, languages, technologies.\n\n
+        • Github: https://github.com/pingwiner \n\n
+        • Google play: http://goo.gl/qqQ0B1 \n\n
+        • My freelance team (not active now): http://excel-team.ru \n\n
+        • My very old homepage: http://i486dx.narod.ru
+    </string>
+
+    <string name="hardware">HARDWARE</string>
+    <string name="hardware_description">
+        I\'m interested in retro hardware, including PCs, PDAs, Game consoles etc... Also I love to play with arduino, raspberry pi, and other cool devices.
+    </string>
+
+    <string name="music">MUSIC</string>
+    <string name="music_description">I like jazz, blues and rock music. Some years ago I played bass guitar in one nameless rock band.</string>
+
+</resources>

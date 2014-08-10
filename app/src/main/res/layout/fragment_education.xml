@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/education"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout style="@style/ItemHolder" >
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:text="@string/university"
+                            style="@style/ItemHeader"
+                            android:layout_weight="1"/>
+                        <TextView
+                            android:text="@string/university_date"
+                            style="@style/ItemDate" />
+
+                    </LinearLayout>
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/university_description"
+                        style="@style/ItemContent" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/school"
+                            style="@style/ItemHeader"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:text="@string/school_date"
+                            style="@style/ItemDate" />
+
+                    </LinearLayout>
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/school_description"
+                        style="@style/ItemContent" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/school2"
+                            style="@style/ItemHeader"
+                            android:layout_weight="1"/>
+
+                        <TextView
+                            android:text="@string/school2_date"
+                            style="@style/ItemDate" />
+
+                    </LinearLayout>
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/school2_description"
+                        style="@style/ItemContent" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

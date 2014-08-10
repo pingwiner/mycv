@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/profile_header_background"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/fio"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:paddingLeft="16dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/my_photo"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photo"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout style="@style/ItemHolder">
+
+                    <TextView
+                        style="@style/ItemHeader"
+                        android:text="@string/phone_label"/>
+
+                    <View style="@style/ItemDivider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/ItemContent"
+                            android:text="@string/phone"
+                            android:layout_weight="1"/>
+
+                        <ImageView
+                            android:id="@+id/phone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_menu_call"
+                            android:layout_marginRight="8dp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        style="@style/ItemHeader"
+                        android:text="@string/email_label" />
+
+                    <View style="@style/ItemDivider" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:text="@string/email"
+                            style="@style/ItemContent"
+                            android:layout_weight="1"/>
+
+                        <ImageView
+                            android:id="@+id/email"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_menu_compose"
+                            android:layout_marginRight="8dp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:text="@string/skype_label"
+                        style="@style/ItemHeader" />
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/skype"
+                        style="@style/ItemContent" />
+
+                    <TextView
+                        android:text="@string/birthdate_label"
+                        style="@style/ItemHeader" />
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/birthdate"
+                        style="@style/ItemContent" />
+
+                    <TextView
+                        android:text="@string/location_label"
+                        style="@style/ItemHeader"/>
+
+                    <View style="@style/ItemDivider" />
+
+                    <TextView
+                        android:text="@string/location"
+                        style="@style/ItemContent" />
+
+                    <TextView
+                        android:text="@string/about"
+                        style="@style/InfoBlock"
+                        />
+
+                    <TextView
+                        android:text="@string/info"
+                        style="@style/InfoBlock" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
